@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         view = UIView()
         view.backgroundColor = .white
         
-        setupView()
+        //setupView()
     }
 
     func setupView() {
@@ -60,6 +60,8 @@ class ViewController: UIViewController {
 
     var isSubmitting: Bool = false
     
+    
+    //
     func login(completionHandler: @escaping (Error?) -> Void) {
         guard let enteredUsername = usernameField.text,
               let enteredGivenName = givenNameField.text,

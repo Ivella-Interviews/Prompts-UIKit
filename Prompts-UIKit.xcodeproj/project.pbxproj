@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2011FF93293A94C200277689 /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011FF92293A94C200277689 /* QuestionPageViewController.swift */; };
 		D5B4BAD12939FEC100EC9584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAD02939FEC100EC9584 /* AppDelegate.swift */; };
 		D5B4BAD32939FEC100EC9584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAD22939FEC100EC9584 /* SceneDelegate.swift */; };
 		D5B4BAD52939FEC100EC9584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAD42939FEC100EC9584 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2011FF92293A94C200277689 /* QuestionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
 		D5B4BACD2939FEC100EC9584 /* Prompts-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prompts-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B4BAD02939FEC100EC9584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5B4BAD22939FEC100EC9584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,12 +70,12 @@
 			children = (
 				D5B4BAF2293A8E1B00EC9584 /* Objects */,
 				D5B4BAE62939FF1A00EC9584 /* Stores */,
-				D5B4BAE72939FF2000EC9584 /* Models */,
 				D5B4BAE52939FF1300EC9584 /* Extensions */,
 				D5B4BAE42939FF0700EC9584 /* Networking */,
 				D5B4BAD02939FEC100EC9584 /* AppDelegate.swift */,
 				D5B4BAD22939FEC100EC9584 /* SceneDelegate.swift */,
 				D5B4BAD42939FEC100EC9584 /* ViewController.swift */,
+				2011FF92293A94C200277689 /* QuestionPageViewController.swift */,
 				D5B4BAD62939FEC100EC9584 /* Main.storyboard */,
 				D5B4BAD92939FEC200EC9584 /* Assets.xcassets */,
 				D5B4BADB2939FEC200EC9584 /* LaunchScreen.storyboard */,
@@ -105,13 +107,6 @@
 				D5B4BAEA2939FF4800EC9584 /* Account.swift */,
 			);
 			path = Stores;
-			sourceTree = "<group>";
-		};
-		D5B4BAE72939FF2000EC9584 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		D5B4BAF2293A8E1B00EC9584 /* Objects */ = {
@@ -196,6 +191,7 @@
 				D5B4BAEB2939FF4800EC9584 /* Account.swift in Sources */,
 				D5B4BAD52939FEC100EC9584 /* ViewController.swift in Sources */,
 				D5B4BAEF2939FF7400EC9584 /* Network.swift in Sources */,
+				2011FF93293A94C200277689 /* QuestionPageViewController.swift in Sources */,
 				D5B4BAF4293A8E2600EC9584 /* RuntimeError.swift in Sources */,
 				D5B4BAF12939FF7F00EC9584 /* Router.swift in Sources */,
 				D5B4BAD12939FEC100EC9584 /* AppDelegate.swift in Sources */,
