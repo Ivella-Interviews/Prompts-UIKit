@@ -17,6 +17,7 @@
 		D5B4BAEB2939FF4800EC9584 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAEA2939FF4800EC9584 /* Account.swift */; };
 		D5B4BAEF2939FF7400EC9584 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAEE2939FF7400EC9584 /* Network.swift */; };
 		D5B4BAF12939FF7F00EC9584 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAF02939FF7F00EC9584 /* Router.swift */; };
+		D5B4BAF4293A8E2600EC9584 /* RuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAF3293A8E2600EC9584 /* RuntimeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D5B4BAEA2939FF4800EC9584 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D5B4BAEE2939FF7400EC9584 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D5B4BAF02939FF7F00EC9584 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D5B4BAF3293A8E2600EC9584 /* RuntimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		D5B4BACF2939FEC100EC9584 /* Prompts-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D5B4BAF2293A8E1B00EC9584 /* Objects */,
 				D5B4BAE62939FF1A00EC9584 /* Stores */,
 				D5B4BAE72939FF2000EC9584 /* Models */,
 				D5B4BAE52939FF1300EC9584 /* Extensions */,
@@ -109,6 +112,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D5B4BAF2293A8E1B00EC9584 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BAF3293A8E2600EC9584 /* RuntimeError.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				D5B4BAEB2939FF4800EC9584 /* Account.swift in Sources */,
 				D5B4BAD52939FEC100EC9584 /* ViewController.swift in Sources */,
 				D5B4BAEF2939FF7400EC9584 /* Network.swift in Sources */,
+				D5B4BAF4293A8E2600EC9584 /* RuntimeError.swift in Sources */,
 				D5B4BAF12939FF7F00EC9584 /* Router.swift in Sources */,
 				D5B4BAD12939FEC100EC9584 /* AppDelegate.swift in Sources */,
 				D5B4BAD32939FEC100EC9584 /* SceneDelegate.swift in Sources */,
