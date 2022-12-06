@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             switch result {
             case .success(let success):
                 if success {
-                    self.performSegue(withIdentifier: "successLogin", sender: nil)
+                    self.navigateToQuestionsPage()
                     return
                 } else {
                     let error = RuntimeError(message: "Invalid login credentials provided", error: "InvalidCredentials")
@@ -57,6 +57,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 return
             }
         }
+    }
+    
+    func navigateToQuestionsPage() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "QuestionPage") as! QuestionPageViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
     
     func resetErrorMessage() {
